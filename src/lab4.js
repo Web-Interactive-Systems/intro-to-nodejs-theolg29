@@ -9,9 +9,26 @@
 
 const fs = require("fs");
 
-const filename = process.argv; // Todo;
-const text = process.argv; // Todo;
+const filename = process.argv[2]; // Todo;
+const text = process.argv[3]; // Todo;
+
+console.table(process.argv);
 
 // Todo writeFile
+fs.writeFile(filename, text, (err) => {
+    if (err){
+        console.error("err:", err);
+    }
+    else {
+        console.log("Is good");
+    }
+});
 
 // Todo readFile
+fs.readFile(filename, (err, data) => {
+    if (err) {
+        console.error("err:", err);
+    } else {
+        console.log("Content", data);
+    }
+});

@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-nodejs-theolg29",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bEEpDhxw)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/main.js",
+    "lab1": "node ./src/lab1.js",
+    "lab2": "node ./src/lab2.js",
+    "lab3": "node ./src/lab3.js",
+    "lab4": "node ./src/lab4.js",
+    "lab5": "node ./src/lab5.js",
+    "lab6": "node ./src/lab6.js",
+    "lab7": "node ./src/lab7.js",
+    "lab8": "node ./src/lab8.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+
