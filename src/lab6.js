@@ -14,4 +14,23 @@
  
  */
 
-const http = require("http");
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+
+    if (req.url === "/") {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end(`<p>Hello World</p> <a href="/dashboard">Dashboard></a>`);
+    } 
+    
+    if (req.url === "/dashboard") {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('<h1>Dashboard</h1><a href="/">back home</a>');
+    }
+
+});
+
+
+server.listen(3000, () => {
+  console.log('Server running at <http://localhost:3000/>');
+});
