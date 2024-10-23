@@ -1,3 +1,5 @@
+const os = require('os');
+
 /**
  Todo: Complete this lab by importing the needed 
  module
