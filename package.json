@@ -5,7 +5,15 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/main.js"
+    "dev": "nodemon ./src/main.js",
+    "lab1": "node ./src/lab1.js",
+    "lab2": "node ./src/lab2.js",
+    "lab3": "node ./src/lab3.js",
+    "lab4": "node ./src/lab4.js",
+    "lab5": "node ./src/lab5.js",
+    "lab6": "node ./src/lab6.js",
+    "lab7": "node ./src/lab7.js",
+    "lab8": "node ./src/lab8.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,3 +21,4 @@
     "nodemon": "^3.1.7"
   }
 }
+
